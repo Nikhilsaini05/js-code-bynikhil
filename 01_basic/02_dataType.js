@@ -10,3 +10,4 @@ let state;                  // undefined
                             // symbol => unique identifie
                             // null => stand-alone value
 console.log(typeof null);
+console.log(typeof true);
