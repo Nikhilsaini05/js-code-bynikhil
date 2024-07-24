@@ -9,4 +9,3 @@ let isLoggedIn = true;      // boolean
 let state;                  // undefined
                             // symbol => unique identifie
                             // null => stand-alone value
-S
