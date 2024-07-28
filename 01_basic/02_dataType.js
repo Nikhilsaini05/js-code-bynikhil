@@ -30,9 +30,9 @@ const Function = function(){
 let myName = "Nikhil";
 
 let anotherName = myName;
-anotherName ="Saini";
+anotherName = "Saini";
 
-console.log(myname);
+console.log(myName);
 console.log(anotherName);
 
 // Heap Memory ( Non-premetive )           ( ~Reference)
