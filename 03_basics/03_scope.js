@@ -1,33 +1,23 @@
-// Topic Globle & Local scope => '{}'
+// Topic Globle or loca variable     scope => '{}'
+function one() {
+    const userName = "Nikhil"
 
-// Globle scope decleare outside the {}
-
-let a = 10;
-// console.log(a);
-
-// Local scope declare inside the {}
-
-if (true) {
-    let a = 3;
-    const b = 5;
-    
-}
-
-// console.log(c);
-
-// Nested scope
-
-function one() {        
-    const userName = "Nikhil";
-    function two() {
-        const website = "Github";
+    function two() {    
+        const website = "youtube";
         console.log(userName);
     }
-console.log(website);
-
+    two();
 }
 
+one();
 
+// same use in if condition
 
-
-
+if (true) {
+        const userId = "saini@908";
+        if (userId === "saini@908") {
+            const num = " 121212";
+            const website = " Github";
+            console.log(userId + num + website);
+        }
+}
