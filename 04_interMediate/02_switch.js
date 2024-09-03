@@ -45,3 +45,28 @@ switch (month) {
             
         break;
 }
+
+// Truthy & Falsy value
+const userEmail = "nikhil@#2.in"
+
+if (userEmail) {
+    console.log("Got user email");   
+} else{
+    console.log("don't have user email");  
+}
+
+// false values 
+// false,0,-0,BigInt,0n,"",null,undefine,nan
+
+// truthy value
+// "false",'0'," ",[],{},function(){}
+
+/*********** Nullish Coalescing Operator(??): null undefine *************/
+
+let val1;
+// val1 = 5 ?? 10
+//  val1 = null ?? 10
+  val1 = undefined ?? 10
+
+console.log(val1);
+
